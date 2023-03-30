@@ -1,0 +1,23 @@
+.container {
+  width: 80%;
+  height: 12.5vh;
+  margin: auto;
+  border-bottom: 2px solid var(--lightGrayishBlue-color);
+
+  display: flex;
+}
+
+.nav {
+  display: flex;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 95%;
+    height: 7.5vh;
+  }
+
+  .nav {
+    display: none;
+  }
+}

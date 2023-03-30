@@ -1,0 +1,79 @@
+.container {
+  height: 3.5em;
+  margin: 8% 0 4% 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.buy-btn {
+  width: 35%;
+
+  background-color: var(--lightGrayishBlue-color);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.buy-btn__minus, .buy-btn__plus {
+  width: 25%;
+  height: 100%;
+
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buy-btn__quantity {
+  width: 50%;
+
+  text-align: center;
+  font-weight: 700;
+}
+
+.cart-btn {
+  width: 61%;
+  border: none;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1.5em 10px 0 var(--main-paleOrange-color);
+  border-radius: 10px;
+  background-color: var(--main-orange-color);
+  color: var(--white-color);
+  font-size: inherit;
+}
+
+.cart-btn:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.cart-btn__icon {
+  width: 1.1em;
+  height: 1.1em;
+  margin-right: 1em;
+}
+
+.cart-btn__text {
+  font-size: 1em;
+  display: block;
+}
+
+@media screen and (max-width: 425px) {
+  .buy-btn {
+    width: 100%;
+    height: inherit;
+    margin-bottom: 1em;
+  }
+
+  .cart-btn {
+    width: 100%;
+    height: inherit;
+  }
+}

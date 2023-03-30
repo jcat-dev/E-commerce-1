@@ -1,0 +1,31 @@
+.container {
+  width: 8%;
+  height: 100%;
+  margin-right: 0;
+
+  display: flex;
+}
+
+.avatar {
+  width: 3.5em;
+  height: fit-content;
+  margin: auto;
+  border: 2px solid transparent;
+}
+
+.avatar:hover {
+  border: 2px solid var(--main-orange-color);
+  
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 15%;
+  }
+
+  .avatar {
+    width: 1.8em;
+  }
+}

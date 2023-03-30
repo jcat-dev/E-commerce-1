@@ -1,0 +1,31 @@
+.container {
+  display: none;
+}
+
+.menu-icon {
+  margin: auto;
+}
+
+.menu {
+  width: 100vw;
+  height: 100vh;
+  
+  position: absolute;
+  z-index: var(--menu-z-index);
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.menu-close {
+  position: absolute;
+  top: 2.7vh;
+  left: 6.5vw;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    width: 12%;
+    
+    display: flex;
+  }
+}

@@ -1,0 +1,48 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: var(--modal-z-index);
+  background-color: rgba(0, 0, 0, 0.75);
+  
+  overflow: auto;
+}
+
+.modal--active {
+  display: flex;
+}
+
+.modal__content {
+  width: 38.2%;
+  height: 80vh;
+  margin: auto;
+
+  position: relative;
+}
+
+.modal__content-images {
+  height: 94.5%;
+}
+
+.modal__close {
+  width: fit-content;
+  height: 6.5%;
+  margin-left: auto;
+
+  cursor: pointer;
+}
+
+.modal__close-icon {
+  width: 1.3em;
+  height: auto;
+  margin-left: 1em;
+}
+
+@media screen and (max-width: 425px) {
+  .modal--active {
+    display: none;
+  }
+}
