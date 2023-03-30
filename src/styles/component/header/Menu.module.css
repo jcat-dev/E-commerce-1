@@ -10,7 +10,7 @@
   width: 100vw;
   height: 100vh;
   
-  position: absolute;
+  position: fixed;
   z-index: var(--menu-z-index);
   inset: 0;
   background-color: rgba(0, 0, 0, 0.75);

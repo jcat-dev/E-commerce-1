@@ -37,6 +37,7 @@
   height: 80%;
   
   border-radius: 1em;
+  object-fit: cover;
 }
 
 .small-images, .product-images__small-images {
