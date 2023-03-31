@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/ecommerce-product-page-onHJyrfruX)
 - [Live Site URL](https://e-commerce-1-jec.vercel.app/fall-limited-edition-sneakers)
 
 ### Built with
