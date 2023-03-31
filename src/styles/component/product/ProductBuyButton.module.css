@@ -63,6 +63,7 @@
 .cart-btn__text {
   font-size: 1em;
   display: block;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 425px) {
