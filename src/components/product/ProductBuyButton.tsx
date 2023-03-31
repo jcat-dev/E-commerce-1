@@ -6,7 +6,7 @@ import { RootState } from "src/appRedux/store"
 import Image from "next/image"
 import plusImg from "@/image/icon-plus.svg"
 import minusImg from "@/image/icon-minus.svg"
-import cartIcon from "@/image/icon-cart.svg"
+import cartIcon from "@/image/icon-white-cart.svg"
 import styles from "@/styles/component/product/ProductBuyButton.module.css"
 
 interface Props {
