@@ -10,7 +10,7 @@ const Layout: React.FC<Props> = ({children}) => {
   return (
     <>
       <Head>
-        <title>Sneakers | Fall Limited Edition Sneakers</title>
+        <title>Frontend Mentor | E-commerce product page</title>
         <link rel="icon" href={favicon.src} />
       </Head>
 
