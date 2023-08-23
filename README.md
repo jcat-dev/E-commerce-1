@@ -16,8 +16,8 @@ Users should be able to:
 - View the cart and remove items from it
 
 ## Links
-- [Solution URL](https://www.frontendmentor.io/solutions/ecommerce-product-page-onHJyrfruX)
-- Live Site URL - [E-commerce product page](https://e-commerce-1-jec.vercel.app/fall-limited-edition-sneakers)
+- Solution URL: [https://www.frontendmentor.io/solutions/ecommerce-product-page-onHJyrfruX](https://www.frontendmentor.io/solutions/ecommerce-product-page-onHJyrfruX)
+- Live Site URL: [https://e-commerce-1-jec.vercel.app/fall-limited-edition-sneakers](https://e-commerce-1-jec.vercel.app/fall-limited-edition-sneakers)
 
 ## Built with
 - JavaScript
@@ -27,7 +27,3 @@ Users should be able to:
 - [Next.js](https://nextjs.org/) 
 - HTML
 - CSS
-
-## Author
-- Frontend Mentor - [@jcat-dev](https://www.frontendmentor.io/profile/jcat-dev)
-- LinkedIn - [@jcat-dev](https://www.linkedin.com/in/jcat-dev/)
